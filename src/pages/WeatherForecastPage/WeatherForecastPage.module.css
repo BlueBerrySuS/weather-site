@@ -1,0 +1,49 @@
+.weather_page__wrapper {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    padding: 4%;
+}
+
+.weather_report__wrapper {
+    height: 40%;
+}
+
+.weather_report {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0px 5%;
+}
+
+.weather_report__block {
+    height: 100%;
+}
+
+.weather__image {
+    box-sizing: content-box;
+}
+
+.weather__image img {
+    height: 100%;
+}
+
+.content__wrapper {
+    display: grid;
+    grid-template-columns: 100px 3fr 1fr;
+    gap: 40px;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.content__block {
+    background-color: rgba(222, 171, 77, 1);
+    padding: 20px;
+    border-radius: 40px;
+    height: 100%;
+}
